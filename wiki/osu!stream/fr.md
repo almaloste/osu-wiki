@@ -138,12 +138,12 @@ _Cercles maintenus 1_
 _Cercles maintenus 2_
 
 - Les cercles maintenus obligent le joueur à maintenir le cercle jusqu'à ce qu'il "explose"
-- L'accuracy de la touche est déterminé The hit accuracy is determined by how early/late hit and holding time.
-  - If the hold was released before the circle "explodes", combo multiplier will reset to 0 but the hold circle will not incur a miss as long as at least, touched the hold circle.
-  - If the player did not hold the circle, the HP will be taken as long as the hold circle have not exploded itself.
-- Hold circle can be determined by having a "hold" at the circle with a purple colour background bordered by white colour as permanent default colour scheme.
+- L'accuracy de la touche est déterminé par si vous touchez en avance ou en retard et le temps que vous le maintenez.
+  - Si le maintient est relaché avant que le cercle explose, le multiplicateur de combo sera remis à 0 mais le cercle maintenu ne donnera pas de miss tant que vous l'avez touché.
+  - Si un joueur ne maintient pas le cercle, des points de vie seront enlevés tant que le cercle a maintenir n'a pas explosé de lui même.
+- Un cercle maintenu peut être déterminé en avant un "hold" sur le cercle avec un arrière-plan violet bordé par une couleur blanche comme jeu de couleur par défaut.
 
-### New Modes to replace the difficulty
+### Nouveaux modes pour remplacer la difficulté
 
 ---
 
@@ -175,21 +175,21 @@ _Expert_
 
 ![Easy mode][Easy mode]
 
-**Difficulty: Easy + [NoFail][NF wikilink]**
+**Difficultée : Easy + [NoFail][NF wikilink]**
 
-Easy mode is for new-comers to get used of the osu!stream game-play. The gameplay are considerably slower for new player to understand the flow and timing to hit. No lifebar will be issued and playing Easy mode will not unlock Expert mode.
+Le mode Easy est pour les nouveaux joueurs pour s'habituer au gameplay d'osu!stream. Le gameplay est considérablement ralenti pour les nouveaux joueurs pour leur permettre de comprendre le flow et le moment où frapper. Il n'y a pas de barre de vie et le mode Easy ne débloquera pas le mode Expert.
 
-The background colour is Green.
+La couleur d'arrière plan est verte.
 
-#### Stream mode
+#### Mode Stream
 
 ![Stream mode][Stream mode]
 
-**Difficulty: Easy ("Stream Down!" from Normal) ~ Normal (start point) ~ Hard ("Stream Up!" from Normal)**
+**Difficultée : Easy ("Stream Down!" from Normal) ~ Normal (start point) ~ Hard ("Stream Up!" from Normal)**
 
-Stream mode is a new implementation specially for osu!stream. In this mode, player will start with a half-filled "2nd" lifebar with a normal difficulty setting set. The player is then tasked to fill it full to trigger "Stream Up!" which basically tune the difficulty up (by adding more hit object and alternating to "Hard" design) but still considerately less harder than Expert mode. When player entered "Stream Up!" mode, a (third/second) lifebar is issued and "Stream Down!" will occur when the (third/second) lifebar ran out of health, reverting back to the (Normal/Easy) difficulty setting of design and using the half-filled (second/last) lifebar.
+Le mode stream est une nouvelle implémentation spécialement pour osu!stream. Dans ce mode, les joueurs commenceront avec une "2nde" barre de vie à moitié remplie avec une difficultée normale. Le joueur est alors chargé de la remplir complètement pour déclencher "Stream Up!" ce qui augmente la difficulté (en ajoutant plus d'objet touché et en alternant avec la conception "Difficile") mais toujours beaucoup moins difficile que le mode Expert. Quand le joueur entre en mode "Stream Up!", une (troisième/seconde) barre de vie est délivrée et le "Stream Down!" arrivera quand la (troisième/seconde) barre de vie n'a plus de vie, revenant à la difficultée (Normal/Easy) et utilisant la (seconde/dernière) barre de vie à moitié remplie
 
-In short, the player start in between Easy and Hard.
+En résumé, le joueur commence entre l'Easy et le Hard.
 
 Do note the player **must score at least A (&gt;80% accuracy) rank in this mode in order to unlock the Expert mode of the song**. Accuracy lower than 80% even if full-combo does not count as A (it will be counted as B as usual).
 
