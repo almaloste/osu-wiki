@@ -191,9 +191,9 @@ Le mode stream est une nouvelle implémentation spécialement pour osu!stream. D
 
 En résumé, le joueur commence entre l'Easy et le Hard.
 
-Do note the player **must score at least A (&gt;80% accuracy) rank in this mode in order to unlock the Expert mode of the song**. Accuracy lower than 80% even if full-combo does not count as A (it will be counted as B as usual).
+Notez que le joueur **doit avoir un score avec un rang A (&gt;80% d'accuracy) dans ce mode pour débloqué le mode Expert de la musique**. Une accuracy plus basse que 80% même s'il y a un full combo ne comptera pas comme un A (cela comptera comme un B comme d'habitude).
 
-The background colour is Green (Easy), Blue (Normal) and Pink (Hard).
+La couleur d'arrière plan est verte (Easy), bleu (Normal) et rose (Hard).
 
 ---
 
@@ -209,9 +209,9 @@ _Stream Down!_
 
 ---
 
-![Critical health][Os-Zero1.png]
+![Vie critique][Os-Zero1.png]
 
-_Critical health_
+_Vie critique_
 
 ---
 
@@ -225,43 +225,43 @@ _Game Over_
 
 ![Expert mode][Expert mode]
 
-**Difficulty: Expert**
+**Difficultée : Expert**
 
-Locked by default and can only be unlocked by completing the Stream mode of the song with an A or better, Expert mode is for players that wants a better challenge. In this mode, player is given a full lifebar and player is tasked to preserve it until the end of the song. Completing it will not unlock anything but bragging rights.
+Vérouillée par défaut et pouvant uniquement être débloquée en complétant le Stream mode de la musique avec un A ou plus, le mode expert est pour les joueurs voulant un meilleur challenge. Dans ce mode, le joueur a une barre de vie remplie et le joueur doit la préserver jusqu'à la fin de la musique. Le terminer ne débloquera rien d'autre que le droit de se vanter.
 
-The background colour is Purple and the lights will darken depending on current HP.
+L'arrière plan est de couleur violette et la lumière peut s'assombrir en fonction des points de vie actuels.
 
 ## Interface
 
 ---
 
-![Main Menu][Os-MM.png]
+![Menu principal][Os-MM.png]
 
-_Main Menu_
-
----
-
-![Song list][Os-SL.jpg]
-
-_Song list_
+_Menu principal_
 
 ---
 
-![Store screen][Os-Store.jpg]
+![Liste des musiques][Os-SL.jpg]
 
-_Store screen_
-
----
-
-![Selecting style menu][Os-DS.png]
-
-_Selecting style menu_
+_Liste des musiques_
 
 ---
 
-![Song Information][Os-SI.png]
+![Écran de la boutique][Os-Store.jpg]
 
-_Song Information_
+_Écran de la boutique_
+
+---
+
+![Menu de sélection de style][Os-DS.png]
+
+_Menu de sélection de style_
+
+---
+
+![Informations de la musique][Os-SI.png]
+
+_Informations de la musique_
 
 ---
 
@@ -271,15 +271,15 @@ _Expert_
 
 ---
 
-![Pause menu][Os-Pause.png]
+![Menu de pause][Os-Pause.png]
 
-_Pause menu_
+_Menu de pause_
 
 ---
 
-![Failed menu][Os-FM.png]
+![Menu d'échec][Os-FM.png]
 
-_Failed menu_
+_Menu d'échec_
 
 ---
 
@@ -289,21 +289,21 @@ _Stage cleared!_
 
 ---
 
-![Grade screen][Os-Grade.jpg]
+![Écran des grades][Os-Grade.jpg]
 
-_Grade screen_
-
----
-
-![Option screen 1][Os-O1.png]
-
-_Option screen 1_
+_Écran des grades_
 
 ---
 
-![Option screen 2][Os-O2.png]
+![Écran des options 1][Os-O1.png]
 
-_Option screen 2_
+_Écran des options 1_
+
+---
+
+![Écran des options 2][Os-O2.png]
+
+_Écran des options 2_
 
 ---
 
