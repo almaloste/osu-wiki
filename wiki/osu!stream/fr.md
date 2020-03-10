@@ -307,45 +307,45 @@ _Écran des options 2_
 
 ---
 
-## Song list
+## Liste des musiques
 
-**_[Click for full list][Song List]_**
+**_[Cliquez ici pour la liste complète][Song List]_**
 
-## Scoring
+## Score
 
 ### Accuracy
 
 `Accuracy = HitValue / (PerfectHitValue)`
 
-Term | Formula
+Terme | Formule
 :---:|:---
-**HitValue**        | (Number of misses * 0 + Number of 50's * 1 + Number of 100's * 2 + Number of 300's * 4)
-**PerfectHitValue** | (Number of misses + Number of 50's + Number of 100's + Number of 300's) * 4
+**HitValue**        | (Numbre de misses * 0 + Nombre de 50 * 1 + Nombre de 100 * 2 + Nombre de 300 * 4)
+**PerfectHitValue** | (Number of misses + Nombre de 50 + Nombre de 100 + Nombre de 300) * 4
 
-In other words, each miss towards to 0%, each 50 towards to 25%, each 100 towards to 50% and each 300 towards to 100%.
+En d'autres mots, chaque miss compte pour 0%, chaque 50 compte pour 25%, chaque 100 compte pour 50% et chaque 300 compte pour 100%.
 
 ### Score
 
-The score given by each hit circle and end of a slider is calculated with the following formula:
+le score donné par chaque hit circle et à la fin d'un slider est calculé avec la formule suivante :
 
 `Score = Hit Value + Hit Value * (Combo multiplier * Fixed multiplier) / 25`
 
-Term | Meaning
+Terme | Signification
 :---:|:---
-**Hit Value**        | The hit circle judgement (50, 100 or 300).
-**Combo multiplier** | (Combo before this hit - 1) or 0; whichever is higher.
-**Fixed multiplier** | The multiplier that fixes the score into 600.000
+**Hit Value**        | Le jugement du hit circle (50, 100 or 300).
+**Multiplicateur de combo** | (Combo avant ce hit - 1) ou 0; selon lequel est le plus haut.
+**Multiplicateur fixe** | Le multiplicateur qui fixe le score à 600.000
 
-Additionally each slider start, end and repeat tick awards 30 points and each spin of a spinner awards 100 points.
-Additional bonus of 10 point awarded depending on the speed of spinning the spinner after the spinner meter is full.
+De plus, à chaque début de slider, fin et le tick de répétition donne 30 points et chaque spin d'un spinner donne 100 points.
+Un bonus additionnel de 10 point sera gagné dépendant de la vitesse de rotation du spinner après que le spinner meter soit rempli.
 
-### Hit circle judgement
+### Jugement du hit circle
 
 **Hit-circles**
 
-- A 300, 100 or 50 from a normal hit circle depending on tap accuracy.
-- Not tapping on the hit circle at all or tap on it too early, a miss will be given.
-  - If tapped on it really, really early, the object will shake instead. Nothing will happen technically except visually telling that it was tapped too early.
+- Un 300, 100 ou 50 d'un hit circle normal dépend de la précision de la frappe.
+- Ne pas tapper du tout sur le hit circle ou tapper dessus trop tôt, un miss sera donné.
+  - Si vous tappez dessus vraiment, vraiment tôt, l'objet tremblera à la place. Rien ne se passera techniquement, sauf visuellement pour dire qu'il a été tappé trop tôt.
 
 **Hold-circle**
 
